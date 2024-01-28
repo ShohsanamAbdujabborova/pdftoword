@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\PdfToWordAssignment\\PdfToWordAssignment\\PdfToWordAssignment.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\PdfToWordAssignment\\PdfToWordAssignment\\PdfToWordAssignment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\PdfToWordAssignment\\PdfToWordAssignment\\PdfToWordAssignment.csproj",
+        "projectName": "PdfToWordAssignment",
+        "projectPath": "D:\\projects\\PdfToWordAssignment\\PdfToWordAssignment\\PdfToWordAssignment.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\PdfToWordAssignment\\PdfToWordAssignment\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GemBox.Document": {
+              "target": "Package",
+              "version": "[35.0.1631, )"
+            },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
+            "PdfSharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Pdfium.Net": {
+              "target": "Package",
+              "version": "[1.0.12, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PdfToWordAssignment</id>
+    <version>1.0.0</version>
+    <authors>PdfToWordAssignment</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="GemBox.Document" version="35.0.1631" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Office.Interop.Word" version="15.0.4797.1004" exclude="Build,Analyzers" />
+        <dependency id="PdfSharp" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="itext7" version="8.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\projects\PdfToWordAssignment\PdfToWordAssignment\bin\Debug\net8.0\PdfToWordAssignment.runtimeconfig.json" target="lib\net8.0\PdfToWordAssignment.runtimeconfig.json" />
+    <file src="D:\projects\PdfToWordAssignment\PdfToWordAssignment\bin\Debug\net8.0\PdfToWordAssignment.dll" target="lib\net8.0\PdfToWordAssignment.dll" />
+  </files>
+</package>
